@@ -174,6 +174,8 @@ RESPONSE MODEL - application/json
 To access the above APIs user would have to pass in the header a token generated through authenticate POST API with the given body.
 
 Formate of passing header :
-#Authorization    Bearer {generated_token}
+
+
+**Authorization**    **Bearer {generated_token}**
 
 Token should be placed after Bearer key follewed by a space.
