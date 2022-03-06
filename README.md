@@ -30,11 +30,31 @@ The project is made up of different components:
 APIs Exposed:-
 1. authenticate
 1.1 POST /authenticate
+
+
+
+
 This Api is used to generate JWT token to be used for further access of the application APIs
-REQUEST: { "username": "gotproject", "password":"password" }
+
+
+
+
+REQUEST:
+
+
+{ "username": "gotproject", "password":"password" }
+
+
+
 RESPONSE
 STATUS CODE - 200: OK
+
+
 RESPONSE MODEL - application/json { "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJnb3Rwcm9qZWN0IiwiZXhwIjoxNjQ3MzAyNjExLCJpYXQiOjE2NDY0MDI2MTF9.RNNoJMq3FpNeVnDKg8CzwziOfnB-R7Od8leo6k7cWddXzkgfp_YjGOvV9kj8R1iqvKVJeBwX9W9YOSJOe-5LCA" }
+
+
+
+
 2.count
 1.1 GET /count
 This Api is used to get count of different records in the Got Project
@@ -154,8 +174,6 @@ RESPONSE MODEL - application/json
 To access the above APIs user would have to pass in the header a token generated through authenticate POST API with the given body.
 
 Formate of passing header :
-
-Key              Value
-Authorization    Bearer {generated_token}
+#Authorization    Bearer {generated_token}
 
 Token should be placed after Bearer key follewed by a space.
