@@ -176,6 +176,6 @@ To access the above APIs user would have to pass in the header a token generated
 Formate of passing header :
 
 
-**Authorization**    **Bearer {generated_token}**
+**Authorization** :   **Bearer {generated_token}**
 
 Token should be placed after Bearer key follewed by a space.
